@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Hakkımda
+</button>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Hakkımda</h4>
+                <form>
+                    <div class="modal-body">
+                        <h5>Merhaba, ben Zehra Akbulut</h5>
+                        <h5>Murat Yücedağ'ın YouTube'ta bulunan kanalında ücretsiz olarak yayınladığı; "50 Derste Mvc" serisinde 45.videoya kadar geldiğimi ve öğrendiklerimi herkesle paylaşarak mutluluğumu belirtmek istiyorum. Teşekkürler Murat Yücedağ :) </h5>
+                        <h5>@DateTime.Now.Year</h5>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
